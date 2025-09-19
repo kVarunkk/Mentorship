@@ -1,0 +1,129 @@
+:root {
+  --main-color: #4CAF4F;
+  --bg-color1: #F5F7FA
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main section {
+  padding: 55px 10%;
+}
+
+/* NAVBAR */
+.navcontainer {
+  background: var(--bg-color1);
+  width: 100%;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navitems {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+
+.navitems a {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+  color: #272727;
+}
+
+.navitems a:hover {
+  color: black
+}
+
+.navbuttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbuttons button {
+
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.login {
+  color: var(--main-color);
+  background: none;
+
+}
+
+.signup {
+  background-color: var(--main-color);
+  color: white;
+
+}
+
+/* HERO SECTION */
+
+#hero {
+  background-color: var(--bg-color1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_child_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero_child_1 h1 {
+  font-size: 50px;
+  font-weight: 650;
+  color: #4D4D4D;
+}
+
+.hero_child_1 p {
+  color: #717171;
+}
+
+.break {
+  color: var(--main-color);
+}
+
+.hero_child_1 button {
+
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.img {
+  margin-left: 40px;
+  margin-top: 100px;
+  position: relative;
+  left: 70px;
+  top: 75px;
+}
+
+.register {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.client {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+}
